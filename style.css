@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Zen+Kaku+Gothic+Antique&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  color: #380505; 
+  background: rgba(250, 111, 111, 0.07);
+}
+
+.wrapper {
+  position: relative;
+  width: 1440px;
+  height: 1835px;
+  margin: auto;
+}
+
+.brand-img {
+  position: absolute;
+  width: 241px;
+  height: 57px;
+  left: 164px;
+  top: 88px;  
+}
+
+.title {
+  position: absolute;
+  width: 600px;
+  height: 144px;
+  left: 164px;
+  top: 174px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  /* or 112% */
+  
+  display: flex;
+  align-items: center; 
+}
+
+.text {
+  position: absolute;
+width: 600px;
+height: 128px;
+left: 164px;
+top: 382px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 32px;
+/* or 100% */
+
+display: flex;
+align-items: center;
+}
+
+.main-image-container {
+  position: absolute;
+  width: 508.51px;
+  height: 524.78px;
+  left: 848.7px;
+  top: 88px;
+}
+
+.main-image-container img {
+  width: 508.51px;
+  height: 524.78px;
+}
+
+.app-store-btn {
+  position: absolute;
+  width: 138.5px;
+  height: 46.5px;
+  left: 164px;
+  top: 609px;
+}
+
+.app-store-btn img {
+  width: 138.5px;
+  height: 46.5px;
+}
+
+.google-play-btn {
+  position: absolute;
+  width: 156.5px;
+  height: 46.5px;
+  left: 334.5px;
+  top: 609px;
+}
+
+.google-play-btn img {
+  width: 156.5px;
+  height: 46.5px;
+}
+
+.cart-img{
+  position: absolute;
+  width: 359.57px;
+  height: 630.41px;
+  left: 663px;
+  top: 1112.41px;
+}
+
+.home1-img {
+  position: absolute;
+  width: 359.57px;
+  height: 630.41px;
+  left: 663px;
+  top: 632px;
+}
+
+.home2-img {
+  position: absolute;
+  width: 359.57px;
+  height: 630.41px;
+  left: 170px;
+  top: 1009px;
+}
+
+.orders-img {
+  position: absolute;
+  width: 359.57px;
+  height: 630.41px;
+  left: 418px;
+  top: 1242px;
+}
+
+.product-img {
+  position: absolute;
+  width: 359.57px;
+  height: 630.41px;
+  left: 418px;
+  top: 764px;
+}
+
+.profile-img {
+  position: absolute;
+  width: 360px;
+  height: 631.86px;
+  left: 910px;
+  top: 764px;
+}
+
+.wishlist-img {
+  position: absolute;
+  width: 359.57px;
+  height: 630.41px;
+  left: 910px;
+  top: 1242px;
+}
